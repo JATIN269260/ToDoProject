@@ -1,0 +1,91 @@
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+}
+
+.input-container {
+  margin-bottom: 10px;
+}
+
+.input-text {
+  padding: 10px;
+  margin-right: 10px;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.large-input {
+  height: 40px;
+}
+
+.add-button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.buttons-container {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.all-tasks-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.completed-tasks-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.pending-tasks-button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.todo-item {
+  margin-bottom: 10px;
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo-item button {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #dc3545;
+  color: #fff;
+  cursor: pointer;
+}
